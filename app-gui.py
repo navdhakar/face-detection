@@ -59,7 +59,7 @@ class StartPage(tk.Frame):
         self.controller = controller
 
         # Load the GIF image
-        gif_path = "giphy.gif"
+        gif_path = "giphy1.gif"
         gif = Image.open(gif_path)
         desired_width = 350
         width, height = gif.size
